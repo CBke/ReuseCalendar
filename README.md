@@ -3,7 +3,8 @@ Usage
 
 cat database.sql | sqlite3
 
-this wil rersult in
+Results
+-------
 
 MAX(yearstopass)|MIN(yearstopass)|avg(yearstopass)
 ----------------|----------------|----------------
