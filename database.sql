@@ -89,3 +89,4 @@ insert into YEARS values(0,9999);
 insert into Calendars select * from Calendars_Fill;
 .headers on
 select MAX(yearstopass), MIN(yearstopass), avg(yearstopass) from Calendars_Next;
+select LEAP, STARTDAY, group_concat(year) years from Calendars group by LEAP, STARTDAY;
